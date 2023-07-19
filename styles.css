@@ -6,6 +6,10 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+
+nav {
+  background-color: white;
+}
 .nav-container {
   /* width: 1920px;
   height: 130px;
@@ -21,7 +25,7 @@ body {
 
   justify-content: space-between;
   align-items: center;
-  border: red solid;
+
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -48,7 +52,6 @@ body {
   font-weight: 700;
   /* margin-top: 10px; */
   text-align: center;
-  border: red solid;
 }
 
 .g {
@@ -64,6 +67,13 @@ body {
   display: flex;
   justify-content: space-between;
   width: 50%;
+  align-items: center;
+}
+
+.btn-follow {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px 20px;
 }
 
 /* .menu li {
@@ -85,4 +95,28 @@ body {
 
 .menu a {
   text-decoration: none;
+}
+
+/* responsive */
+@media screen and (max-width: 400px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .logo {
+    justify-content: center;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .menu a {
+    margin-top: 20px;
+  }
+
+  .btn-follow {
+    width: 100%;
+    text-align: center;
+  }
 }
