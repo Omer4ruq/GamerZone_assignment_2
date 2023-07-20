@@ -213,6 +213,82 @@ nav {
   text-align: start;
 }
 
+/* mid-banner */
+.mid-banner-container {
+  margin: 50px auto 0;
+  max-width: 1400px;
+  min-width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/* .mid-banner-text {
+  width: 50%;
+}
+
+.mid-banner-img {
+  width: 50%;
+}
+
+.mid-banner-img img {
+  width: 100%;
+  height: 100%;
+} */
+
+.mid-banner-text h3 {
+  text-align: center;
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.sp {
+  color: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+}
+
+.mid-banner-text h1 {
+  text-align: start;
+  font-family: Work Sans;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mid-banner-text p {
+  color: #534c64;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.mid-banner-img {
+  position: relative;
+}
+
+.big-img {
+}
+
+.small-img {
+  position: absolute;
+}
+
+.pera {
+  text-align: start;
+}
+/* mid-banner-end */
+
 /* grid */
 
 .grid-d {
